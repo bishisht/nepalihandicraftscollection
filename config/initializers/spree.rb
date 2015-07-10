@@ -29,7 +29,6 @@ Spree.config do |config|
           attachment_config.each do |key, value|
                Spree::Image.attachment_definitions[:attachment][key.to_sym] = value
           end
-     end
-end
+      end
 Spree.user_class = "Spree::User"
 end
